@@ -65,4 +65,7 @@ $(document).ready(() => {
     }
 
     $(window).on('wheel', manageSections);
+    $(window).on('touchmove', () => {
+        $(window).trigger('wheel');
+    })
 })
