@@ -19,6 +19,13 @@ a {
   text-decoration: none;
 }
 
+.font {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 .font__juniperandsage {
   font-family: "JuniperandSage-Regular";
 }
@@ -66,7 +73,7 @@ a {
 }
 
 .section__home {
-  background-image: url("../images/background.svg");
+  background-image: url("../images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 100%;

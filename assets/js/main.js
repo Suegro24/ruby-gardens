@@ -1,5 +1,6 @@
 $(document).ready(() => {
     let currentSection = 0;
+    let touchStartPosition;
 
     const disableWheel = (time) => {
         $(window).off('wheel');
@@ -65,7 +66,18 @@ $(document).ready(() => {
     }
 
     $(window).on('wheel', manageSections);
-    $(window).on('touchmove', () => {
-        $(window).trigger('wheel');
+    $(document).bind('touchstart', (e) => {
+        touchStartPosition = e.originalEvent.touches[0].clientY;
+    })
+
+    $(document).bind('touchend', (e) => {
+        let touchEndPosition = e.originalEvent.changedTouches[0].clientY;
+        if (touchStartPosition > touchEndPosition + 5 && currentSection < 2) {
+            changeSection(currentSection, currentSection + 1);
+            currentSection++;
+        } else if (touchStartPosition < touchEndPosition - 5 && currentSection > 0) {
+            changeSection(currentSection, currentSection - 1);
+            currentSection--;
+        }
     })
 })
