@@ -1,0 +1,36 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4015315, 2021-02-17T08:22:48-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: JuniperandSage-Regular by Nicky Laatz
+ * URL: https://www.myfonts.com/fonts/nicky-laatz/juniper-and-sage/regular/
+ * Copyright: Copyright Nicky Laatz - All rights reserved 
+ * 
+ * Webfont: Cherston-Regular by Larin Type Co
+ * URL: https://www.myfonts.com/fonts/larin-type-co/cherston/regular/
+ * Copyright: Pavel Larin
+ * 
+ * 
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3d44d3");
+  
+@font-face {
+  font-family: "JuniperandSage-Regular";
+  src: url('webFonts/JuniperandSageRegular/font.woff2') format('woff2'), url('webFonts/JuniperandSageRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Cherston-Regular";
+  src: url('webFonts/CherstonRegular/font.woff2') format('woff2'), url('webFonts/CherstonRegular/font.woff') format('woff');
+}
+
