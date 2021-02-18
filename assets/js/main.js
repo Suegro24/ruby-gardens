@@ -1,8 +1,4 @@
 $(document).ready(() => {
-    $('html, body').animate({
-        scrollTop: 0
-    }, 0);
-
     let currentSection = 0;
 
     const disableWheel = (time) => {

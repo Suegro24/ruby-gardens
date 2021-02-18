@@ -7,7 +7,7 @@
 
 body {
   overflow: hidden;
-  font-family: Cherston-Regular;
+  font-family: "Cherston-Regular";
 }
 
 .remove-scroll {
@@ -66,7 +66,7 @@ a {
 }
 
 .section__home {
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/background.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 100%;
@@ -136,10 +136,15 @@ a {
 }
 
 .about__text {
-  font-size: 1.5rem;
-  line-height: 3rem;
   margin: 35px auto 0 auto;
   width: 1100px;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
 .about__content {
