@@ -59,7 +59,7 @@ $(document).ready(() => {
             $('.section__about').fadeIn(900)
         } else if (prev == 1 && next == 0) {
             disableWheel(850);
-            changeLogoColor('white', 300);
+            changeLogoColor('white', 150);
             $('.section__home').css('visibility', 'visible');
             $('html, body').animate({
                 scrollTop: 0
