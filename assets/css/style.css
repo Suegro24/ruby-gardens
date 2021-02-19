@@ -286,6 +286,15 @@ a {
   }
 }
 
+@media (max-width: 400px) {
+  .about__subtitle {
+    margin-top: 140px;
+  }
+  .about__text {
+    padding: 0 30px;
+  }
+}
+
 @media (max-width: 380px) {
   .home__title {
     font-size: 5rem;
@@ -299,11 +308,11 @@ a {
   .about__text {
     line-height: 2.375rem;
   }
-  .coming-soon__title {
-    margin-bottom: 10px;
-  }
   .coming-soon__contact {
     font-size: 1.25rem;
+  }
+  .coming-soon__contact:first-child {
+    margin-top: 0;
   }
   .coming-soon__image {
     width: 210px;
