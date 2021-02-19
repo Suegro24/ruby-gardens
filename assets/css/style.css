@@ -245,15 +245,30 @@ a {
   .home__title {
     font-size: 4rem;
   }
-}
-
-@media (max-width: 420px) {
   .about__subtitle {
     margin-top: 180px;
   }
   .coming-soon__title {
     font-size: 2.5rem;
     line-height: 3rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .about__subtitle {
+    font-size: 2.5rem;
+  }
+  .about__title {
+    font-size: 2.75rem;
+  }
+  .about__text {
+    line-height: 2.375rem;
+  }
+  .coming-soon__contact {
+    font-size: 1.25rem;
+  }
+  .coming-soon__image {
+    width: 210px;
   }
 }
 /*# sourceMappingURL=style.css.map */

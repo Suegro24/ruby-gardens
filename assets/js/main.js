@@ -4,8 +4,10 @@ $(document).ready(() => {
 
     const disableWheel = (time) => {
         $(window).off('wheel');
+        $(document).off('touchend');
         setTimeout(() => {
             $(window).on('wheel', manageSections);
+            $(document).bind('touchend', manageSectionsMobile);
         }, time);
     }
 
@@ -65,12 +67,7 @@ $(document).ready(() => {
         }
     }
 
-    $(window).on('wheel', manageSections);
-    $(document).bind('touchstart', (e) => {
-        touchStartPosition = e.originalEvent.touches[0].clientY;
-    })
-
-    $(document).bind('touchend', (e) => {
+    const manageSectionsMobile = (e) => {
         let touchEndPosition = e.originalEvent.changedTouches[0].clientY;
         if (touchStartPosition > touchEndPosition + 5 && currentSection < 2) {
             changeSection(currentSection, currentSection + 1);
@@ -79,5 +76,11 @@ $(document).ready(() => {
             changeSection(currentSection, currentSection - 1);
             currentSection--;
         }
+    }
+
+    $(window).on('wheel', manageSections);
+    $(document).bind('touchstart', (e) => {
+        touchStartPosition = e.originalEvent.touches[0].clientY;
     })
+    $(document).bind('touchend', manageSectionsMobile);
 })
