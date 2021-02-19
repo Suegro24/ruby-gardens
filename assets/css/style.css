@@ -241,12 +241,15 @@ a {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 435px) {
   .home__title {
-    font-size: 5rem;
+    font-size: 7.5rem;
+  }
+  .about__image {
+    top: -130px;
   }
   .about__image img {
-    width: 200px;
+    width: 143px;
   }
   .about__subtitle {
     font-size: 1.875rem;
@@ -254,15 +257,19 @@ a {
     line-height: unset;
   }
   .about__title {
+    margin-top: 10px;
     font-size: 2.8125rem;
+    padding: 0 20px;
   }
   .about__text {
     font-size: 1.0625rem;
     line-height: 2.5rem;
+    padding: 0 64px;
   }
   .coming-soon__title {
     font-size: 2.8125rem;
     line-height: 3rem;
+    padding: 0 20px;
   }
   .coming-soon__contact {
     font-size: 1.065rem;
@@ -279,7 +286,10 @@ a {
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 380px) {
+  .home__title {
+    font-size: 5rem;
+  }
   .about__subtitle {
     font-size: 2.5rem;
   }
