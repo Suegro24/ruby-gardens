@@ -49,7 +49,7 @@ $(document).ready(() => {
             });
         } else if (prev == 1 && next == 2) {
             disableWheel(950);
-            changeLogoColor('white', 50);
+            changeLogoColor('white', 450);
             $('.section__about').fadeOut(500);
             $('.section__coming-soon').fadeIn(900);
         } else if (prev == 2 && next == 1) {

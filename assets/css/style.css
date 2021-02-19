@@ -299,6 +299,9 @@ a {
   .about__text {
     line-height: 2.375rem;
   }
+  .coming-soon__title {
+    margin-bottom: 10px;
+  }
   .coming-soon__contact {
     font-size: 1.25rem;
   }
