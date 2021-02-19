@@ -48,18 +48,18 @@ $(document).ready(() => {
                 $('.section__home').css('visibility', 'hidden');
             });
         } else if (prev == 1 && next == 2) {
-            disableWheel(150);
+            disableWheel(950);
             changeLogoColor('white', 50);
-            $('.section__about').fadeOut(100);
-            $('.section__coming-soon').fadeIn(100);
+            $('.section__about').fadeOut(500);
+            $('.section__coming-soon').fadeIn(900);
         } else if (prev == 2 && next == 1) {
-            disableWheel(150);
+            disableWheel(950);
             changeLogoColor('brown', 50);
-            $('.section__coming-soon').fadeOut(100);
-            $('.section__about').fadeIn(100)
+            $('.section__coming-soon').fadeOut(500);
+            $('.section__about').fadeIn(900)
         } else if (prev == 1 && next == 0) {
             disableWheel(850);
-            changeLogoColor('white', 100);
+            changeLogoColor('white', 300);
             $('.section__home').css('visibility', 'visible');
             $('html, body').animate({
                 scrollTop: 0

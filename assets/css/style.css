@@ -243,14 +243,39 @@ a {
 
 @media (max-width: 420px) {
   .home__title {
-    font-size: 4rem;
+    font-size: 5rem;
+  }
+  .about__image img {
+    width: 200px;
   }
   .about__subtitle {
+    font-size: 1.875rem;
     margin-top: 180px;
+    line-height: unset;
+  }
+  .about__title {
+    font-size: 2.8125rem;
+  }
+  .about__text {
+    font-size: 1.0625rem;
+    line-height: 2.5rem;
   }
   .coming-soon__title {
-    font-size: 2.5rem;
+    font-size: 2.8125rem;
     line-height: 3rem;
+  }
+  .coming-soon__contact {
+    font-size: 1.065rem;
+    line-height: 2rem;
+  }
+  .coming-soon__contact:first-child {
+    margin-top: -50px;
+  }
+  .coming-soon__image {
+    width: 124px;
+  }
+  .coming-soon__image-footer {
+    width: 200px;
   }
 }
 
