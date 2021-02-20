@@ -116,18 +116,18 @@ a {
 .about__image {
   position: absolute;
   left: 50%;
-  top: -65px;
+  top: -55px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   background-color: white;
   border-radius: 9999px;
   padding: 30px;
   width: 96px;
-  height: 121px;
+  height: 100px;
 }
 
 .about__image-content {
-  width: 183px;
+  width: 178px;
   margin-top: 141px;
 }
 
@@ -179,31 +179,32 @@ a {
   font-size: 4.6875rem;
   font-weight: 400;
   line-height: 5rem;
-  margin-top: 87px;
+  margin-top: 107px;
 }
 
 .coming-soon__contact {
   font-family: Inter, sans-serif;
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 45px;
+  line-height: 2.9375rem;
   letter-spacing: 0em;
   text-align: center;
 }
 
 .coming-soon__contact:first-child {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .coming-soon__image {
-  width: 160px;
+  width: 155px;
   margin-top: 141px;
 }
 
 .coming-soon__footer {
   text-align: center;
   margin-top: auto;
+  margin-bottom: 91px;
 }
 
 @media (max-width: 1100px) {
@@ -236,6 +237,9 @@ a {
   .coming-soon__contact:first-child {
     margin-top: 40px;
   }
+  .coming-soon__footer {
+    margin-bottom: unset;
+  }
 }
 
 @media (max-width: 700px) {
@@ -244,7 +248,7 @@ a {
   }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 630px) {
   .about__subtitle {
     font-size: 2.5rem;
   }
@@ -335,10 +339,39 @@ a {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
+  .about__title {
+    font-size: 2rem;
+  }
   .about__text {
     padding: 0 10px;
     font-size: 1rem;
+  }
+}
+
+@media (max-height: 800px) {
+  .about__image-content {
+    width: 140px;
+    margin-top: 55px;
+  }
+  .coming-soon__image {
+    width: 117px;
+    margin-top: 55px;
+  }
+}
+
+@media (max-height: 600px) {
+  .about__image-content {
+    width: 110px;
+    margin-top: 55px;
+  }
+  .about__text {
+    margin-top: 10px;
+    line-height: 1.5rem;
+  }
+  .coming-soon__image {
+    width: 87px;
+    margin-top: 55px;
   }
 }
 /*# sourceMappingURL=style.css.map */
