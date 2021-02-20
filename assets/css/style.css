@@ -121,7 +121,7 @@ a {
           transform: translateX(-50%);
   background-color: white;
   border-radius: 9999px;
-  padding: 30px;
+  padding: 20px 30px 30px 30px;
   width: 96px;
   height: 100px;
 }
