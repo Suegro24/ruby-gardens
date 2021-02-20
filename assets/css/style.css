@@ -111,6 +111,7 @@ a {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   font-size: 19.375rem;
+  text-shadow: 2px 2px #6F5D4D;
 }
 
 .about__image {
