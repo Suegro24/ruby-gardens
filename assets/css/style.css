@@ -9,6 +9,12 @@ html {
   font-size: 10px;
 }
 
+@media (max-width: 400px) {
+  html {
+    font-size: 16px;
+  }
+}
+
 body {
   overflow: hidden;
   font-family: "Cherston-Regular", sans-serif;
@@ -225,6 +231,9 @@ a {
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
+  }
+  .header img {
+    width: 140px;
   }
   .home__title {
     font-size: 13rem;
