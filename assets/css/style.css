@@ -351,11 +351,17 @@ a {
     font-size: 2.5rem;
     margin-top: unset;
   }
+  .about__image-content {
+    width: 110px !important;
+  }
   .coming-soon__title {
     font-size: 2.25rem;
   }
   .coming-soon__contact:first-child {
     margin-top: 40px;
+  }
+  .coming-soon__image {
+    width: calc(110px - 17px) !important;
   }
 }
 
