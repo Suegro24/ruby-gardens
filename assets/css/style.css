@@ -220,8 +220,7 @@ a {
 
 .coming-soon__footer {
   text-align: center;
-  margin-top: auto;
-  margin-bottom: 91px;
+  margin-top: 30px;
 }
 
 @media (max-width: 1100px) {
@@ -253,9 +252,6 @@ a {
   }
   .coming-soon__title {
     margin-top: 50px;
-  }
-  .coming-soon__contact:first-child {
-    margin-top: 40px;
   }
   .coming-soon__footer {
     margin-bottom: unset;
@@ -340,7 +336,6 @@ a {
   }
   .coming-soon__image-footer {
     width: 150px;
-    margin-bottom: 20px;
   }
 }
 
@@ -366,9 +361,6 @@ a {
   }
   .coming-soon__title {
     font-size: 2.25rem;
-  }
-  .coming-soon__contact:first-child {
-    margin-top: 40px;
   }
   .coming-soon__image {
     width: calc(110px - 17px) !important;
