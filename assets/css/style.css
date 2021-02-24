@@ -155,10 +155,7 @@ a {
 }
 
 .about__title {
-  font-size: 5rem;
-  font-weight: 400;
-  line-height: 5rem;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .about__text {
@@ -247,7 +244,7 @@ a {
     margin-top: 65px;
   }
   .about__title {
-    font-size: 4rem;
+    width: 325px;
   }
   .about__text {
     width: unset;
@@ -282,7 +279,7 @@ a {
     font-size: 2.5rem;
   }
   .about__title {
-    font-size: 3.5rem;
+    width: 300px;
   }
   .about__text {
     font-size: 1.4rem;
@@ -294,18 +291,9 @@ a {
   }
 }
 
-@media (max-width: 550px) {
-  .about__title {
-    line-height: 4rem;
-  }
-}
-
 @media (max-width: 500px) {
   .about__subtitle {
     font-size: 2rem;
-  }
-  .about__title {
-    font-size: 2.875rem;
   }
   .about__text {
     line-height: 2rem;
@@ -318,8 +306,6 @@ a {
   }
   .about__title {
     margin-top: 20px;
-    font-size: 3rem;
-    line-height: 3rem;
   }
   .about__text {
     font-size: 1.125rem;
@@ -358,7 +344,6 @@ a {
     font-size: 1.5rem;
   }
   .about__title {
-    font-size: 2.5rem;
     margin-top: unset;
   }
   .about__image-content {
@@ -373,12 +358,15 @@ a {
 }
 
 @media (max-width: 360px) {
-  .about__title {
-    font-size: 2rem;
-  }
   .about__text {
     padding: 0 10px;
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .about__title {
+    width: 100%;
   }
 }
 
@@ -406,4 +394,3 @@ a {
     margin-top: 55px;
   }
 }
-/*# sourceMappingURL=style.css.map */
